@@ -1,0 +1,121 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    max-width: 90%;
+    margin: 0 auto;
+}
+
+.topbar{
+    
+    background-color: rgb(71, 68, 68);
+    color: rgb(130, 185, 84);
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 28vh;
+
+}
+
+.topbar h1{
+    font-size: 60px;
+}
+
+.navbar{
+    background-color: greenyellow;
+    color: white;
+    display: flex;
+    padding: 15px;
+    list-style: none;
+    
+
+    
+}
+.navbar li{
+    padding: 0 30px;
+    font-size: 20px;
+    cursor: pointer;
+    transition: all .4s;
+}
+.navbar li:hover{
+   transform: scale(1.1);
+   
+   color: red;
+}
+
+.image{
+    height: 40vh;
+}
+
+.image img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+.master{
+  display: flex;
+}
+
+.left-div{
+    width: 40vw;
+}
+
+.div1 h2{
+    color: rgb(116, 204, 44);
+    padding: 10px;
+    font-size: 30px;
+}
+
+.div1 p{
+    padding: 15px;
+    color: rgb(27, 27, 27);
+    font-size: 18px;
+}
+
+
+
+.left-child h2{
+    color: rgb(116, 204, 44);
+    padding: 10px;
+    font-size: 30px;
+    margin-top: 10px;
+}
+
+.left-child li{
+    list-style: none;
+    font-size: 20px;
+    padding-top: 15px ;
+    color: rgb(151, 148, 148);
+    
+}
+.right-div{
+    width: 60vw;
+}
+.r-div h2{
+    padding: 10px 20px;
+    color: rgb(116, 204, 44);
+    font-size: 40px;
+}
+
+.r-div p{
+   padding: 0 20px;
+}
+.paragraph{
+    font-size: 20px;
+    line-height: 27px;
+}
+.footer{
+    background-color: rgb(53, 50, 50);
+    color: white;
+    height: 12vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+    font-size: 18px;
+}
